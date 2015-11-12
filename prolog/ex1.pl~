@@ -1,0 +1,6 @@
+seats(X):-
+	subset([4,_],X),
+	subset([_,5],X),
+	subset(X,[_,_,_]).
+	
+

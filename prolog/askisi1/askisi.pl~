@@ -1,0 +1,10 @@
+seats(S):-
+	S=[_,_,_,_,_,_,_,_,_,_],
+	append(_,[anti,_,_,johan|_],S),
+	append(_,[johan,luis|_],S),
+	append(_,[jeroen,_,_,eric|_],S),%vfvfd
+	append(_,[jeroen,_,_,_,michel|_],S),
+	append(_,[eric,_,haris|_],S),
+	append(_,[anti,_,_,_,_,_,_,_,wolfang|_],S),
+	append(_,[peter,_,_,_,_,_,_,wolfang|_],S),
+	append(_,[yanis|_],S),!.
